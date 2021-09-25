@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Docker", "Docker.csproj", "{EFAB52D8-1A45-4556-A082-485AA6E8D7AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzFunctions", "..\AzFunctions\AzFunctions.csproj", "{A9903EE9-A55D-4C8F-98EC-776DCCAA9C03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFAB52D8-1A45-4556-A082-485AA6E8D7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFAB52D8-1A45-4556-A082-485AA6E8D7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFAB52D8-1A45-4556-A082-485AA6E8D7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFAB52D8-1A45-4556-A082-485AA6E8D7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9903EE9-A55D-4C8F-98EC-776DCCAA9C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9903EE9-A55D-4C8F-98EC-776DCCAA9C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9903EE9-A55D-4C8F-98EC-776DCCAA9C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9903EE9-A55D-4C8F-98EC-776DCCAA9C03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12A5EA33-7D07-4F36-A012-3BF2FD8A29CB}
+	EndGlobalSection
+EndGlobal
