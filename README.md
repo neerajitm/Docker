@@ -1,4 +1,4 @@
-IMplemented Dot Net core and Deployed in Azure Devops
+Implemented Dot Net core and Deployed in Azure Devops
 implemented Azure Web API
 Implemented Swagger
 Implemented Web API Authentication
