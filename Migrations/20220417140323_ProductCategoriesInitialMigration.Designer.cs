@@ -3,14 +3,16 @@ using Docker.DataContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Docker.Migrations
 {
 
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20220417140323_ProductCategoriesInitialMigration")]
+    partial class ProductCategoriesInitialMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

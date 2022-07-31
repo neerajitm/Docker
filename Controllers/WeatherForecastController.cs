@@ -10,7 +10,7 @@ namespace Docker.Controllers
 {
     [Authorize]
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -26,7 +26,7 @@ namespace Docker.Controllers
         }
 
         [HttpGet]
-        
+        [Route("")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();

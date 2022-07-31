@@ -48,6 +48,7 @@ namespace Docker
             {
                 c.SwaggerDoc("v1", info);
             });
+            services.AddApplicationInsightsTelemetry();
             //services.AddScoped<IRespository, Repository.Repository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
